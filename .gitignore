@@ -1,0 +1,22 @@
+# 环境与密钥
+.env
+.npmrc
+.openai/
+
+# 依赖与构建产物
+node_modules/
+dist/
+
+# 日志
+*.log
+
+# 运行时数据
+runtime/jobs.json
+runtime/jobs.json.tmp
+runtime/launcher.log
+runtime/outputs/*
+!runtime/outputs/.gitkeep
+
+# 交付包（构建产物，不提交）
+画布交付包*/
+画布交付包*.zip
